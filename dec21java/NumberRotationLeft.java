@@ -6,12 +6,7 @@ public class NumberRotationLeft {
 
 	public static void main(String[] args) {
 		int[]  num = {10,20,30,40,50};
-		// 20 30 40 50 10
-		// 30 40 50 10 20
-		// num[0]--- num[1]
-		// num[1]---num[2]
-		// num[3]----num[4]
-		// num[4] --- num[0]
+		
 		System.out.println("Before rotation");
 		for(int i=0;i<num.length;i++) {
 			System.out.print(num[i]+" ");
